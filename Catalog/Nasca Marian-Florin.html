@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<button
+onclick="myFunction()">Alta viata!</button>
+<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Descrierea mea</title>
+</head>
+<body>
+<img id="poza" src="Poza_profil.jpg" alt="Poza" width="333" height="300">
+<h3 id="salcf">Nume si prenume:</h3> 
+<p id="numedeviitor">Nasca Marian-Florin</p> 
+<h3 id="salcf">Email:</h3> 
+<p style="font-family:arial">mariannasca58@gmail.com</p>
+<h3 id="salcf">Citat reprezentativ:</h3> 
+<p id="citat" ><i> “Copiii trebuiesc învățați cum să gândească, nu ce să gândească.” (Margaret Mead)</i></p>
+<table style="width:60%">
+  <tr>
+    <th>Nume disciplina</th>
+    <th>Anul de studiu</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Dispozitive electronice</td>
+    <td>anul I</td>
+    <td><a href="https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST12.00.pdf">https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST12.00.pdf</a> </td>
+  </tr>
+  <tr>
+    <td>Tehnici CAD</td>
+    <td>anul II</td>
+    <td><a href="https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST28.00.pdf">https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST28.00.pdf</td>
+  </tr>
+
+   <tr>
+    <td>Arhitectura microprocesoarelor</td>
+    <td>anul III</td>
+    <td><a href="https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST31.00.pdf">https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST31.00.pdf</td>
+  </tr>
+  </table>
+ <ul>
+ <h3 id="salcf">Hobby uri:</h3>
+  <li>sa cant la pian</li>
+  <li>sa ma joc pe calculator</li>
+  <li>sa rezolv cubul rubik</li>
+</ul>  
+
+<script>
+function myFunction() {
+ var list= document.getElementsByTagName("h3");
+  document.getElementById("poza").src="alta viata lol.jpg"
+  document.getElementById("numedeviitor").innerHTML="ING. Electronist"
+  document.body.style.backgroundColor = "#00cccc";
+  document.getElementById("citat").style.color="blue"
+
+ 
+  
+  
+ 
+  
+  }
+</script>
+</body>
+</html>
